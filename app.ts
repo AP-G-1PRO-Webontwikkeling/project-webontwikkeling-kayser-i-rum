@@ -1,6 +1,6 @@
 // app.ts
-import * as fs from 'fs';
-import { Item } from './interfaces.ts';
+import * as fs from '#';
+import { Item } from './interface.ts';
 
 // Functie om JSON-bestand in te lezen
 function loadJSON(filename: string): Item[] {

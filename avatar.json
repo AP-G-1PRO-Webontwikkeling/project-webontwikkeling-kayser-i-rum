@@ -6,7 +6,7 @@
         "age": 100,
         "active": true,
         "birthdate": "1992-05-15",
-        "imageURL": "https://copilot.microsoft.com/images/create/avatar-aang/1-65e2091c45f544649bae2c50b109088f?id=%2b4dy6C3skGdFcp0NTSLQeQ%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG4.z.B6voEwyTSVKsXm54zE&FORM=SYDBIC",
+        "imageURL": "",
         "status": "active",
         "hobbies": ["Vliegen", "Luchtsturen", "Luchtballen"],
         "otherObject": {
