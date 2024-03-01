@@ -2,38 +2,24 @@
     {
         "id": 1,
         "name": "Aang",
+        "specialty": "Airbender",
         "description": "Aang is de laatste luchtmeester die de wereld in balans moet brengen. Hij is de Avatar.",
         "age": 100,
-        "active": true,
-        "birthdate": "1992-05-15",
-        "imageURL": "",
-        "status": "active",
-        "hobbies": ["Vliegen", "Luchtsturen", "Luchtballen"],
-        "otherObject": {
-            "id": 101,
-            "property1": "value1",
-            "property2": true,
-            "property3": 42,
-            "property4": "https://example.com/other/image.jpg"
-        }
+        "birthdate": "1924-05-15",
+        "imageURL": "https://raw.github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-kayser-i-rum/main/assets/AvatarAang.jpg",
+        "hobbies": ["Vliegen", "Luchtsturen", "Luchtballen"]
+
     },
     {
         "id": 2,
         "name": "Katara",
         "description": "Katara is een watermeester die Aang leert watersturen om de vuurheer te verslaan.",
+        "specialty": "Waterbender",
         "age": 18,
-        "active": false,
-        "birthdate": "1997-10-20",
-        "imageURL": "https://copilot.microsoft.com/images/create/katara/1-65e20995587548218dcbfadaf7664e3d?id=wXsWhm%2f8FNaKWiFtbVgh2w%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG1.aTT5kUQkbraUlw2vz.m9&FORM=SYDBIC",
-        "status": "inactive",
-        "hobbies": ["Surfen", "Watersturen", "Bloedsturen"],
-        "otherObject": {
-            "id": 102,
-            "property1": "another value",
-            "property2": false,
-            "property3": 28,
-            "property4": "https://example.com/other/another-image.jpg"
-        }
+        "birthdate": "2005-10-20",
+        "imageURL": "https://raw.github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-kayser-i-rum/main/assets/Katara.jpg",
+        "hobbies": ["Surfen", "Watersturen", "Bloedsturen"]
+    
     }
    
 ]
