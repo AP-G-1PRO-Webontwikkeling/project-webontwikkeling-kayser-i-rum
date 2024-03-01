@@ -20,6 +20,87 @@
         "imageURL": "https://raw.github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-kayser-i-rum/main/assets/Katara.jpg",
         "hobbies": ["Surfen", "Watersturen", "Bloedsturen"]
     
+    },
+
+   {
+        "id": 3,
+        "name": "Sokka",
+        "description": "Sokka is de broer van Katara en een slimme krijger die vecht aan de zijde van Aang.",
+        "specialty": "Zwaardvechter",
+        "age": 20,
+        "birthdate": "2003-03-07",
+        "imageURL": "https://example.com/sokka.jpg",
+        "hobbies": ["Strategieën bedenken", "Zwaardvechten", "Vissen"]
+    },
+    {
+        "id": 4,
+        "name": "Toph Beifong",
+        "description": "Toph is een blinde aardemeester en een van de krachtigste aardstuurders in de wereld.",
+        "specialty": "Aardbender",
+        "age": 12,
+        "birthdate": "2012-11-23",
+        "imageURL": "https://example.com/toph.jpg",
+        "hobbies": ["Aarde sturen", "Bergbeklimmen", "Vechtsport"]
+    },
+    {
+        "id": 5,
+        "name": "Zuko",
+        "description": "Zuko is de verbannen prins van het Vuurvolk die op zoek is naar eerherstel.",
+        "specialty": "Vuurbender",
+        "age": 19,
+        "birthdate": "2004-07-25",
+        "imageURL": "https://example.com/zuko.jpg",
+        "hobbies": ["Vuursturen", "Thee drinken", "Mediteren"]
+    },
+    {
+        "id": 6,
+        "name": "Azula",
+        "description": "Azula is de meedogenloze zus van Zuko en een meesterlijke vuurheer.",
+        "specialty": "Vuurbender",
+        "age": 16,
+        "birthdate": "2007-02-14",
+        "imageURL": "https://example.com/azula.jpg",
+        "hobbies": ["Strategieën bedenken", "Vechten", "Machiavellisme"]
+    },
+    {
+        "id": 7,
+        "name": "Suki",
+        "description": "Suki is de leider van de Kyoshi krijgers, een groep sterke vrouwelijke strijders.",
+        "specialty": "Zwaardvechter",
+        "age": 17,
+        "birthdate": "2006-09-03",
+        "imageURL": "https://example.com/suki.jpg",
+        "hobbies": ["Zwaardvechten", "Kyoshi traditionele dans", "Training geven"]
+    },
+    {
+        "id": 8,
+        "name": "Momo",
+        "description": "Momo is Aang's trouwe luchtlemuurkat, altijd klaar voor avontuur.",
+        "specialty": "Luchtlemuur",
+        "age": 3,
+        "birthdate": "2021-08-10",
+        "imageURL": "https://example.com/momo.jpg",
+        "hobbies": ["Vliegen", "Fruit eten", "Grappen maken"]
+    },
+    {
+        "id": 9,
+        "name": "Appa",
+        "description": "Appa is Aang's trouwe luchtbizon, een krachtig en loyaal wezen.",
+        "specialty": "Luchtbizon",
+        "age": 6,
+        "birthdate": "2018-05-30",
+        "imageURL": "https://example.com/appa.jpg",
+        "hobbies": ["Vliegen", "Grassen eten", "Slapen"]
+    },
+    {
+        "id": 10,
+        "name": "Iroh",
+        "description": "Iroh is Zuko's wijze oom en een voormalige generaal van de Vuurnatie.",
+        "specialty": "Vuurbender",
+        "age": 60,
+        "birthdate": "1964-12-08",
+        "imageURL": "https://example.com/iroh.jpg",
+        "hobbies": ["Thee drinken", "Strategieën bedenken", "Mediteren"]
     }
    
 ]
