@@ -1,15 +1,14 @@
-// app.ts
 import * as fs from 'fs/promises';
 import { createInterface } from 'readline';
 import { Character } from './interface';
 
-// Functie om JSON-bestand in te lezen
+
 async function loadJSON(filename: string): Promise<Character[]> {
     const data = await fs.readFile(filename, 'utf8');
     return JSON.parse(data);
 }
 
-// Functie om gegevens in de console weer te geven
+
 function displayCharacters(characters: Character[]): void {
     console.log('ID\tName\t\tSpecialty\tDescription');
     characters.forEach(character => {
@@ -17,13 +16,13 @@ function displayCharacters(characters: Character[]): void {
     });
 }
 
-// Functie om gegevens te filteren op ID
+
 function filterCharacterById(characters: Character[], id: number): Character | undefined {
     return characters.find(character => character.id === id);
 }
 
-// Hoofdcode
-const filename = 'avatar.json'; // Vervang 'characters.json' door de naam van je JSON-bestand
+
+const filename = 'avatar.json'; 
 
 (async () => {
     try {
@@ -33,7 +32,7 @@ const filename = 'avatar.json'; // Vervang 'characters.json' door de naam van je
         console.log('Hier zijn de beschikbare personages:');
         displayCharacters(characters);
 
-        // Prompt voor ID-filtering
+
         const readline = createInterface({
             input: process.stdin,
             output: process.stdout
